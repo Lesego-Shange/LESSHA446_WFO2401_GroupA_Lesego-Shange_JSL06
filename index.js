@@ -86,7 +86,21 @@ function calculateTotalPrice() {
     return totalPrice.toFixed(2);
 }
 
+// Function to get the price for a specific item
+function getPriceForItem(itemName) {
+    
+    // For simplicity, we'll just return a hardcoded price for each item
+    const itemPrices = {
+        "Garlic Bread": 5,
+        "Bruschetta": 6,
+        "Margherita Pizza": 10,
+        "Spaghetti Carbonara": 12,
+        "Tiramisu": 8,
+        "Cheesecake": 7
+    };
 
+    return itemPrices[itemName] || 0; // Return the price if found, otherwise default to 0
+}
 
 // Function to initialize the menu system
 function initMenuSystem(menu) {
