@@ -1,8 +1,8 @@
 // Sample menu data (Consider fetching this data from a server in a real-world scenario)
 const menu = {
-    Starters: ["Garlic Bread 🍞", "Bruschetta🫓"],
-    MainCourses: ["Margherita Pizza 🍕", "Spaghetti Carbonara 🍝"],
-    Desserts: ["Tiramisu 🍰", "Cheesecake 🎂"]
+    Starters: ["Garlic Bread🍞", "Bruschetta🫓"],
+    MainCourses: ["Margherita Pizza🍕", "Spaghetti Carbonara🍝"],
+    Desserts: ["Tiramisu🍰", "Cheesecake🎂"]
 };
 
 // Function to display menu items by category
@@ -91,12 +91,12 @@ function getPriceForItem(itemName) {
     
     // For simplicity, we'll just return a hardcoded price for each item
     const itemPrices = {
-        "Garlic Bread": 5,
-        "Bruschetta": 6,
-        "Margherita Pizza": 10,
-        "Spaghetti Carbonara": 12,
-        "Tiramisu": 8,
-        "Cheesecake": 7
+        "Garlic Bread🍞": 5,
+        "Bruschetta🫓": 6,
+        "Margherita Pizza🍕": 10,
+        "Spaghetti Carbonara🍝": 12,
+        "Tiramisu🍰": 8,
+        "Cheesecake🎂": 7
     };
 
     return itemPrices[itemName] || 0; // Return the price if found, otherwise default to 0
